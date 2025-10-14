@@ -1,0 +1,14 @@
+# Ignore pdfs
+*.pdf
+
+# Ignore pngs
+*.png
+
+# Ignore csvs
+*.csv
+
+# Ignore .DS_Store
+.DS_Store
+
+# Ignore .RData
+.RData
