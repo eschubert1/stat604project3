@@ -65,8 +65,8 @@ and contrast the results from different outcomes.
 #### Image Analysis
 To analyze the images, we will process each image so that the background is white,
 and then use a segmentation algorithm to determine the portion of the image
-corresponding to plant matter. We will then compute the average RGB value of
-all the pixels in this image, and subtract this from the average RBG value
+corresponding to plant matter. We will then compute a metric that spots high RGB values and saturation and low value of the B channel in the LAB color space of
+all the pixels in this image, and subtract this from the average value
 of the plant at day 0 (the start of the experiment).
 
 We will conduct a permutation test with the same randomization scheme as
