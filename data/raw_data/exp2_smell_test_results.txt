@@ -1,4 +1,4 @@
-﻿Pot ID,Plant ID,"Weight, grams (Day 0)",Water treatment assignment,Treatment,"Weight, grams (Day 5)",Mold?,Smell test intended order,Smell test actual order,Josh's score,Mihir's score,Filippo's score
+﻿Pot ID,Plant ID,Initial Weights,Water treatment assignment,Treatment,Day 5 Weight,Mold?,Smell test intended order,Smell test actual order,Josh's score,Mihir's score,Filippo's score
 4,1,6,0,T4,5,No,4,4,1.3,1.3,0.5
 4,2,8,0,T4,5.5,No,1,1,1.5,2.5,3
 4,3,9.5,1,T3,8,No,23,23,4.95,4.5,3.7
