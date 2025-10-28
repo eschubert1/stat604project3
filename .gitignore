@@ -4,6 +4,9 @@
 # Ignore pngs
 *.png
 
+# Ignore HEIC
+*.HEIC
+
 # Ignore csvs
 *.csv
 

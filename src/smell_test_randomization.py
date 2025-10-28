@@ -9,9 +9,7 @@ with open('exp2_water_assignments.txt', 'r') as file:
     lines = [line.strip() for line in lines]
     lines = np.array(lines)
 
-rng = np.random.default_rng(seed=914923)
-shuffled = randomize_order(lines, rng)
-#print(shuffled)
+
 
 # For experiment 1 smell test
 pots = [1]*4 + [2]*4 + [3]*4
@@ -21,4 +19,12 @@ treatments = np.reshape(treatments, (12,1))
 plant_df = np.hstack((pots, treatments))
 exp1_rng = np.random.default_rng(seed=523820)
 exp1_shuffled = randomize_order(plant_df, exp1_rng)
+print("Experiment 1 Freshness Test Randomization:")
 print(exp1_shuffled)
+
+# For experiment 2 smell test
+print("Experiment 2 Freshness Test Randomization")
+rng = np.random.default_rng(seed=914923)
+shuffled = randomize_order(lines, rng)
+print(shuffled)
+print(shuffled[2])
