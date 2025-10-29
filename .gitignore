@@ -15,3 +15,27 @@
 
 # Ignore .RData
 .RData
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Outputs
+outputs/
+results/
+metrics/
+
+# OS files
+Thumbs.db
+.DS_Store
