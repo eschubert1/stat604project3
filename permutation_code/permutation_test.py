@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
-from itertools import product
-
+from itertools import product, combinations 
 
 def pot_perms(pot_df, A, B):
     """Return the 4 treatment-label permutations for one pot (keep/swap in A and in B)."""
@@ -91,18 +90,18 @@ def perm_test(df, A, B, treatment, metric, agg_fn):
 
 
 
-#df = pd.read_csv("data/processed_data/exp1_clean.txt", sep=",")
-df = pd.read_csv("data/processed_data/exp12_comb.csv")
+# #df = pd.read_csv("data/processed_data/exp1_clean.txt", sep=",")
+# df = pd.read_csv("data/processed_data/exp12_comb.csv")
 
-#fridge
-# A = {"T1", "T3"}
-# B = {"T2", "T4"}
-# treatment = {"T1", "T2"}
-A = {"T1", "T2"}
-B = {"T3", "T4"}
-treatment = {"T1", "T3"}
+# #fridge
+# # A = {"T1", "T3"}
+# # B = {"T2", "T4"}
+# # treatment = {"T1", "T2"}
+# A = {"T1", "T2"}
+# B = {"T3", "T4"}
+# treatment = {"T1", "T3"}
 
 
-metric = "Average Score"
-agg_fn = "mean"
+# metric = "Average Score"
+# agg_fn = "mean"
 
