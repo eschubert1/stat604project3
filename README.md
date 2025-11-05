@@ -1,5 +1,15 @@
 # STATS 604 Project 3, Fall 2025
 
+## Project Overview
+In this project, we conducted an experiment to analyze the effectiveness of different 
+methods of preserving store-bought basil. The experimental design and analysis
+are contained in basil_experiment.ipynb. Image data was used for this experiment,
+and the raw images are available at this Google Drive link:
+https://drive.google.com/drive/folders/17H_G2Cy6ux-H00ouSMJjjdR_AzNTphDy?usp=sharing
+
+The raw data of the weights of basil plants and freshness scores are available directly
+within the GitHub.
+
 ## Project Structure:
 The project is organized with the following structure:
 
@@ -11,11 +21,6 @@ The project is organized with the following structure:
 - figures/ : directory for all plots and generated figures
 - results/ : directory for all results - either intermediate or final
 - src/ : directory containing all code files
-
-Additionally, all code in the src/ directory should only require files from
-data/ or results/ and any intermediate output should be saved in one of those
-two locations. This will make it easier to specify a dependency structure
-in the Makefile to more efficiently produce the final report.
 
 # Basil & Cup Segmentation Metrics
 
